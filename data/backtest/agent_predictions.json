@@ -1,0 +1,329 @@
+[
+  {
+    "event_id": "KXDOTA2GAME-26MAY281210OGLGD",
+    "predicted_winner": "OG",
+    "team_a_probability": 0.6,
+    "team_b_probability": 0.4,
+    "confidence": "medium",
+    "abstain": false,
+    "reasoning_summary": "OG has more stable recent form; LGD Gaming rebuilding post-roster changes",
+    "key_factors": [
+      "OG stronger recent results",
+      "LGD roster instability"
+    ],
+    "risk_flags": [
+      "OG inconsistent in group stages"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY280730PARILGD",
+    "predicted_winner": "PARIVISION",
+    "team_a_probability": 0.65,
+    "team_b_probability": 0.35,
+    "confidence": "medium",
+    "abstain": false,
+    "reasoning_summary": "PARIVISION is a top CIS team with strong recent LAN results; LGD in rebuilding phase",
+    "key_factors": [
+      "PARIVISION strong LAN form",
+      "LGD weaker than historical peak"
+    ],
+    "risk_flags": [
+      "CIS teams can be inconsistent"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281210GLYXTREME",
+    "predicted_winner": "Xtreme Gaming",
+    "team_a_probability": 0.2,
+    "team_b_probability": 0.8,
+    "confidence": "high",
+    "abstain": false,
+    "reasoning_summary": "Xtreme Gaming is a top Chinese powerhouse; GLYPH is a newer unproven team",
+    "key_factors": [
+      "Xtreme Gaming elite tier 1 status",
+      "GLYPH lacks tier 1 experience"
+    ],
+    "risk_flags": [
+      "Upsets possible in BO2 group format"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY280730PARIAUR",
+    "predicted_winner": "PARIVISION",
+    "team_a_probability": 0.7,
+    "team_b_probability": 0.3,
+    "confidence": "medium",
+    "abstain": false,
+    "reasoning_summary": "PARIVISION stronger overall; Aurora competitive but outmatched vs top CIS teams",
+    "key_factors": [
+      "PARIVISION tier 1 caliber",
+      "Aurora SEA regional strength less at international level"
+    ],
+    "risk_flags": [
+      "Aurora capable of upset on comfort picks"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281030BBTYANDEX",
+    "predicted_winner": "BetBoom Team",
+    "team_a_probability": 0.75,
+    "team_b_probability": 0.25,
+    "confidence": "medium",
+    "abstain": false,
+    "reasoning_summary": "BetBoom Team is a proven tier 1 CIS roster; Team Yandex is a newer stack with less international experience",
+    "key_factors": [
+      "BetBoom established tier 1",
+      "Team Yandex unproven at this level"
+    ],
+    "risk_flags": [
+      "Team Yandex may have surprise strategies"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281100TLTS",
+    "predicted_winner": "Team Spirit",
+    "team_a_probability": 0.45,
+    "team_b_probability": 0.55,
+    "confidence": "low",
+    "abstain": false,
+    "reasoning_summary": "Very close matchup; Spirit slight edge as TI13 champions. Liquid elite and could easily win",
+    "key_factors": [
+      "Team Spirit TI13 champions",
+      "Team Liquid consistent top 3",
+      "Both tier 1 elite"
+    ],
+    "risk_flags": [
+      "Coin flip matchup between two top 3 teams"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281200TUNDRAFALC",
+    "predicted_winner": "Tundra Esports",
+    "team_a_probability": 0.55,
+    "team_b_probability": 0.45,
+    "confidence": "low",
+    "abstain": false,
+    "reasoning_summary": "Tundra slightly favored; both teams are strong EU competitors with similar tier 1 track records",
+    "key_factors": [
+      "Tundra consistent EU top 2",
+      "Falcons strong but variable"
+    ],
+    "risk_flags": [
+      "Very close matchup, either could win"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281030XTRMTS",
+    "predicted_winner": "Team Spirit",
+    "team_a_probability": 0.4,
+    "team_b_probability": 0.6,
+    "confidence": "medium",
+    "abstain": false,
+    "reasoning_summary": "Team Spirit favored as reigning TI champions; Xtreme strong but Spirit has higher peak",
+    "key_factors": [
+      "Spirit championship pedigree",
+      "Xtreme Gaming top Chinese team"
+    ],
+    "risk_flags": [
+      "Chinese teams historically trouble CIS teams"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281200AURAYANDEX",
+    "predicted_winner": "Aurora",
+    "team_a_probability": 0.65,
+    "team_b_probability": 0.35,
+    "confidence": "medium",
+    "abstain": false,
+    "reasoning_summary": "Aurora is an established SEA team with international experience; Team Yandex newer stack",
+    "key_factors": [
+      "Aurora international experience",
+      "Team Yandex less proven"
+    ],
+    "risk_flags": [
+      "SEA vs CIS style clash"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY280850GLYOG",
+    "predicted_winner": "OG",
+    "team_a_probability": 0.25,
+    "team_b_probability": 0.75,
+    "confidence": "high",
+    "abstain": false,
+    "reasoning_summary": "OG is a multi-TI-winning organization with strong roster; GLYPH is a newer unproven team",
+    "key_factors": [
+      "OG championship pedigree",
+      "GLYPH lacks tier 1 track record"
+    ],
+    "risk_flags": [
+      "OG can be inconsistent early in tournaments"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281130BBTXTRM",
+    "predicted_winner": "Xtreme Gaming",
+    "team_a_probability": 0.45,
+    "team_b_probability": 0.55,
+    "confidence": "low",
+    "abstain": false,
+    "reasoning_summary": "Close matchup; Xtreme slight edge due to stronger LAN results. BetBoom can win on their day",
+    "key_factors": [
+      "Xtreme Gaming strong LAN results",
+      "BetBoom inconsistent on LAN"
+    ],
+    "risk_flags": [
+      "CIS vs China unpredictable styles"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY280800TLAUR",
+    "predicted_winner": "Team Liquid",
+    "team_a_probability": 0.8,
+    "team_b_probability": 0.2,
+    "confidence": "high",
+    "abstain": false,
+    "reasoning_summary": "Team Liquid is an elite tier 1 team; Aurora is competitive but significantly outmatched",
+    "key_factors": [
+      "Liquid TI13 finalists",
+      "Aurora regional tier vs international tier 1"
+    ],
+    "risk_flags": []
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281100TUNDRAYANDEX",
+    "predicted_winner": "Tundra Esports",
+    "team_a_probability": 0.85,
+    "team_b_probability": 0.15,
+    "confidence": "high",
+    "abstain": false,
+    "reasoning_summary": "Tundra is a tier 1 powerhouse; Team Yandex is a newer unproven stack at this level",
+    "key_factors": [
+      "Tundra elite EU team",
+      "Team Yandex lacks tier 1 results"
+    ],
+    "risk_flags": []
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281100TSFALC",
+    "predicted_winner": "Team Spirit",
+    "team_a_probability": 0.6,
+    "team_b_probability": 0.4,
+    "confidence": "medium",
+    "abstain": false,
+    "reasoning_summary": "Team Spirit as TI champions favored over Falcons, though Falcons are strong",
+    "key_factors": [
+      "Spirit championship form",
+      "Falcons consistently top 4-6"
+    ],
+    "risk_flags": [
+      "Falcons can beat anyone on a good day"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY280850PARIGLY",
+    "predicted_winner": "PARIVISION",
+    "team_a_probability": 0.8,
+    "team_b_probability": 0.2,
+    "confidence": "high",
+    "abstain": false,
+    "reasoning_summary": "PARIVISION is a strong CIS team; GLYPH is a newer unproven team at the tier 1 level",
+    "key_factors": [
+      "PARIVISION tier 1 caliber",
+      "GLYPH lacks international experience"
+    ],
+    "risk_flags": []
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY280800BBTOG",
+    "predicted_winner": "BetBoom Team",
+    "team_a_probability": 0.55,
+    "team_b_probability": 0.45,
+    "confidence": "low",
+    "abstain": false,
+    "reasoning_summary": "Close matchup; BetBoom slight edge based on more consistent recent LAN results",
+    "key_factors": [
+      "BetBoom consistent CIS top team",
+      "OG can peak high but inconsistent"
+    ],
+    "risk_flags": [
+      "Either team could win, close to 50/50"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281030LGDGLY",
+    "predicted_winner": "LGD Gaming",
+    "team_a_probability": 0.65,
+    "team_b_probability": 0.35,
+    "confidence": "medium",
+    "abstain": false,
+    "reasoning_summary": "LGD, even in rebuilding phase, has more experience and quality than GLYPH",
+    "key_factors": [
+      "LGD historical pedigree",
+      "GLYPH new unproven roster"
+    ],
+    "risk_flags": [
+      "LGD rebuilding may underperform"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281230LGDFALC",
+    "predicted_winner": "Team Falcons",
+    "team_a_probability": 0.35,
+    "team_b_probability": 0.65,
+    "confidence": "medium",
+    "abstain": false,
+    "reasoning_summary": "Falcons are a top tier 1 team; LGD is rebuilding and not at their historical peak",
+    "key_factors": [
+      "Falcons top 6 internationally",
+      "LGD weaker than historical form"
+    ],
+    "risk_flags": [
+      "LGD capable of upset on strong day"
+    ]
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY280800TLLGD",
+    "predicted_winner": "Team Liquid",
+    "team_a_probability": 0.8,
+    "team_b_probability": 0.2,
+    "confidence": "high",
+    "abstain": false,
+    "reasoning_summary": "Team Liquid elite tier 1; LGD rebuilding and significantly outmatched",
+    "key_factors": [
+      "Liquid top 3 world",
+      "LGD post-roster change decline"
+    ],
+    "risk_flags": []
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY281200TSLGD",
+    "predicted_winner": "Team Spirit",
+    "team_a_probability": 0.85,
+    "team_b_probability": 0.15,
+    "confidence": "high",
+    "abstain": false,
+    "reasoning_summary": "Team Spirit reigning TI champions; rebuilding LGD heavily outmatched",
+    "key_factors": [
+      "Spirit TI13 champions",
+      "LGD significant decline from peak"
+    ],
+    "risk_flags": []
+  },
+  {
+    "event_id": "KXDOTA2GAME-26MAY280930AURLGD",
+    "predicted_winner": "Aurora",
+    "team_a_probability": 0.55,
+    "team_b_probability": 0.45,
+    "confidence": "low",
+    "abstain": false,
+    "reasoning_summary": "Very close matchup; Aurora slight edge as LGD is in a rebuilding phase",
+    "key_factors": [
+      "Aurora rising SEA team",
+      "LGD weakened from historical peak"
+    ],
+    "risk_flags": [
+      "Close to 50/50, high uncertainty"
+    ]
+  }
+]

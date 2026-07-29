@@ -1,0 +1,702 @@
+[
+  {
+    "market_id": "KXCS2GAME-26MAY281300ORMJS-ORM",
+    "event_id": "KXCS2GAME-26MAY281300ORMJS",
+    "game": "cs2",
+    "tournament": "Thunderpick World Championship European Series #1 2026",
+    "participants": [
+      "Oramond",
+      "Johnny Speeds"
+    ],
+    "start_time": "2026-05-28T21:09:55+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281300ORMJS\n- **Game**: cs2\n- **Tournament**: Thunderpick World Championship European Series #1 2026\n- **Teams**: Oramond vs Johnny Speeds\n- **Start Time**: 2026-05-28T21:09:55+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281300ORMJS\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.541469+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY281300ORMJS-JS",
+    "event_id": "KXCS2GAME-26MAY281300ORMJS",
+    "game": "cs2",
+    "tournament": "Thunderpick World Championship European Series #1 2026",
+    "participants": [
+      "Oramond",
+      "Johnny Speeds"
+    ],
+    "start_time": "2026-05-28T21:09:55+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281300ORMJS\n- **Game**: cs2\n- **Tournament**: Thunderpick World Championship European Series #1 2026\n- **Teams**: Oramond vs Johnny Speeds\n- **Start Time**: 2026-05-28T21:09:55+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281300ORMJS\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.541708+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY281000G1KOL-KOL",
+    "event_id": "KXCS2GAME-26MAY281000G1KOL",
+    "game": "cs2",
+    "tournament": "Thunderpick World Championship European Series #1 2026",
+    "participants": [
+      "GenOne",
+      "KOLESIE"
+    ],
+    "start_time": "2026-05-28T16:10:03+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281000G1KOL\n- **Game**: cs2\n- **Tournament**: Thunderpick World Championship European Series #1 2026\n- **Teams**: GenOne vs KOLESIE\n- **Start Time**: 2026-05-28T16:10:03+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281000G1KOL\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.541801+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY281000G1KOL-G1",
+    "event_id": "KXCS2GAME-26MAY281000G1KOL",
+    "game": "cs2",
+    "tournament": "Thunderpick World Championship European Series #1 2026",
+    "participants": [
+      "GenOne",
+      "KOLESIE"
+    ],
+    "start_time": "2026-05-28T16:10:03+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281000G1KOL\n- **Game**: cs2\n- **Tournament**: Thunderpick World Championship European Series #1 2026\n- **Teams**: GenOne vs KOLESIE\n- **Start Time**: 2026-05-28T16:10:03+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281000G1KOL\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.541888+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY281330NIPSHK-SHK",
+    "event_id": "KXCS2GAME-26MAY281330NIPSHK",
+    "game": "cs2",
+    "tournament": "Stake Ranked Episode 2 2026",
+    "participants": [
+      "NIP",
+      "Sharks"
+    ],
+    "start_time": "2026-05-28T22:19:42+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281330NIPSHK\n- **Game**: cs2\n- **Tournament**: Stake Ranked Episode 2 2026\n- **Teams**: NIP vs Sharks\n- **Start Time**: 2026-05-28T22:19:42+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281330NIPSHK\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.541967+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY281330NIPSHK-NIP",
+    "event_id": "KXCS2GAME-26MAY281330NIPSHK",
+    "game": "cs2",
+    "tournament": "Stake Ranked Episode 2 2026",
+    "participants": [
+      "NIP",
+      "Sharks"
+    ],
+    "start_time": "2026-05-28T22:19:42+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281330NIPSHK\n- **Game**: cs2\n- **Tournament**: Stake Ranked Episode 2 2026\n- **Teams**: NIP vs Sharks\n- **Start Time**: 2026-05-28T22:19:42+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281330NIPSHK\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542043+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY281300TDKNEM-TDK",
+    "event_id": "KXCS2GAME-26MAY281300TDKNEM",
+    "game": "cs2",
+    "tournament": "ESL Challenger League Europe Finals 2026",
+    "participants": [
+      "TDK",
+      "Team Nemesis"
+    ],
+    "start_time": "2026-05-28T22:40:01+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281300TDKNEM\n- **Game**: cs2\n- **Tournament**: ESL Challenger League Europe Finals 2026\n- **Teams**: TDK vs Team Nemesis\n- **Start Time**: 2026-05-28T22:40:01+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281300TDKNEM\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542124+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY281300TDKNEM-NEM",
+    "event_id": "KXCS2GAME-26MAY281300TDKNEM",
+    "game": "cs2",
+    "tournament": "ESL Challenger League Europe Finals 2026",
+    "participants": [
+      "TDK",
+      "Team Nemesis"
+    ],
+    "start_time": "2026-05-28T22:40:01+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281300TDKNEM\n- **Game**: cs2\n- **Tournament**: ESL Challenger League Europe Finals 2026\n- **Teams**: TDK vs Team Nemesis\n- **Start Time**: 2026-05-28T22:40:01+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281300TDKNEM\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542207+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280830HERO9Z-HERO",
+    "event_id": "KXCS2GAME-26MAY280830HERO9Z",
+    "game": "cs2",
+    "tournament": "Stake Ranked Episode 2 2026",
+    "participants": [
+      "Heroic",
+      "9z"
+    ],
+    "start_time": "2026-05-28T17:49:52+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280830HERO9Z\n- **Game**: cs2\n- **Tournament**: Stake Ranked Episode 2 2026\n- **Teams**: Heroic vs 9z\n- **Start Time**: 2026-05-28T17:49:52+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280830HERO9Z\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542282+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280830HERO9Z-9Z",
+    "event_id": "KXCS2GAME-26MAY280830HERO9Z",
+    "game": "cs2",
+    "tournament": "Stake Ranked Episode 2 2026",
+    "participants": [
+      "Heroic",
+      "9z"
+    ],
+    "start_time": "2026-05-28T17:49:52+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280830HERO9Z\n- **Game**: cs2\n- **Tournament**: Stake Ranked Episode 2 2026\n- **Teams**: Heroic vs 9z\n- **Start Time**: 2026-05-28T17:49:52+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280830HERO9Z\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542357+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280700OMEEXR-OME",
+    "event_id": "KXCS2GAME-26MAY280700OMEEXR",
+    "game": "cs2",
+    "tournament": "Thunderpick World Championship European Series #1 2026",
+    "participants": [
+      "Omega",
+      "ex-RUBY"
+    ],
+    "start_time": "2026-05-28T14:00:28+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280700OMEEXR\n- **Game**: cs2\n- **Tournament**: Thunderpick World Championship European Series #1 2026\n- **Teams**: Omega vs ex-RUBY\n- **Start Time**: 2026-05-28T14:00:28+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280700OMEEXR\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542442+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280700OMEEXR-EXR",
+    "event_id": "KXCS2GAME-26MAY280700OMEEXR",
+    "game": "cs2",
+    "tournament": "Thunderpick World Championship European Series #1 2026",
+    "participants": [
+      "Omega",
+      "ex-RUBY"
+    ],
+    "start_time": "2026-05-28T14:00:28+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280700OMEEXR\n- **Game**: cs2\n- **Tournament**: Thunderpick World Championship European Series #1 2026\n- **Teams**: Omega vs ex-RUBY\n- **Start Time**: 2026-05-28T14:00:28+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280700OMEEXR\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542539+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280400JUSACE-JUS",
+    "event_id": "KXCS2GAME-26MAY280400JUSACE",
+    "game": "cs2",
+    "tournament": "Thunderpick World Championship European Series #1 2026",
+    "participants": [
+      "JustPlayers",
+      "Acend"
+    ],
+    "start_time": "2026-05-28T10:31:42+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280400JUSACE\n- **Game**: cs2\n- **Tournament**: Thunderpick World Championship European Series #1 2026\n- **Teams**: JustPlayers vs Acend\n- **Start Time**: 2026-05-28T10:31:42+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280400JUSACE\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542625+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280400JUSACE-ACE",
+    "event_id": "KXCS2GAME-26MAY280400JUSACE",
+    "game": "cs2",
+    "tournament": "Thunderpick World Championship European Series #1 2026",
+    "participants": [
+      "Just_Players",
+      "Acend"
+    ],
+    "start_time": "2026-05-28T10:31:42+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280400JUSACE\n- **Game**: cs2\n- **Tournament**: Thunderpick World Championship European Series #1 2026\n- **Teams**: Just_Players vs Acend\n- **Start Time**: 2026-05-28T10:31:42+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280400JUSACE\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542709+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY281100BIGEWI-EWI",
+    "event_id": "KXLOLGAME-26MAY281100BIGEWI",
+    "game": "league-of-legends",
+    "tournament": "Prime League 1st Division 2026",
+    "participants": [
+      "Berlin International Gaming",
+      "E WIE EINFACH E-SPORTS"
+    ],
+    "start_time": "2026-05-28T20:19:21+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY281100BIGEWI\n- **Game**: league-of-legends\n- **Tournament**: Prime League 1st Division 2026\n- **Teams**: Berlin International Gaming vs E WIE EINFACH E-SPORTS\n- **Start Time**: 2026-05-28T20:19:21+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY281100BIGEWI\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542790+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY281100BIGEWI-BIG",
+    "event_id": "KXLOLGAME-26MAY281100BIGEWI",
+    "game": "league-of-legends",
+    "tournament": "Prime League 1st Division 2026",
+    "participants": [
+      "Berlin International Gaming",
+      "E WIE EINFACH E-SPORTS"
+    ],
+    "start_time": "2026-05-28T20:19:21+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY281100BIGEWI\n- **Game**: league-of-legends\n- **Tournament**: Prime League 1st Division 2026\n- **Teams**: Berlin International Gaming vs E WIE EINFACH E-SPORTS\n- **Start Time**: 2026-05-28T20:19:21+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY281100BIGEWI\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542873+00:00"
+  },
+  {
+    "market_id": "KXVALORANTGAME-26MAY281100RBNNAVIJ-RBN",
+    "event_id": "KXVALORANTGAME-26MAY281100RBNNAVIJ",
+    "game": "valorant",
+    "tournament": "VCL EMEA",
+    "participants": [
+      "2026: REBORN",
+      "NAVI Junior"
+    ],
+    "start_time": "2026-05-28T18:49:54+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXVALORANTGAME-26MAY281100RBNNAVIJ\n- **Game**: valorant\n- **Tournament**: VCL EMEA\n- **Teams**: 2026: REBORN vs NAVI Junior\n- **Start Time**: 2026-05-28T18:49:54+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXVALORANTGAME-26MAY281100RBNNAVIJ\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.542939+00:00"
+  },
+  {
+    "market_id": "KXVALORANTGAME-26MAY281100RBNNAVIJ-NAVIJ",
+    "event_id": "KXVALORANTGAME-26MAY281100RBNNAVIJ",
+    "game": "valorant",
+    "tournament": "VCL EMEA",
+    "participants": [
+      "2026: REBORN",
+      "NAVI Junior"
+    ],
+    "start_time": "2026-05-28T18:49:54+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXVALORANTGAME-26MAY281100RBNNAVIJ\n- **Game**: valorant\n- **Tournament**: VCL EMEA\n- **Teams**: 2026: REBORN vs NAVI Junior\n- **Start Time**: 2026-05-28T18:49:54+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXVALORANTGAME-26MAY281100RBNNAVIJ\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543005+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY281100FAZEMGC-MGC",
+    "event_id": "KXCS2GAME-26MAY281100FAZEMGC",
+    "game": "cs2",
+    "tournament": "Stake Ranked Episode 2 2026",
+    "participants": [
+      "FaZe",
+      "magic"
+    ],
+    "start_time": "2026-05-28T20:40:02+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281100FAZEMGC\n- **Game**: cs2\n- **Tournament**: Stake Ranked Episode 2 2026\n- **Teams**: FaZe vs magic\n- **Start Time**: 2026-05-28T20:40:02+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281100FAZEMGC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543081+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY281100FAZEMGC-FAZE",
+    "event_id": "KXCS2GAME-26MAY281100FAZEMGC",
+    "game": "cs2",
+    "tournament": "Stake Ranked Episode 2 2026",
+    "participants": [
+      "FaZe",
+      "magic"
+    ],
+    "start_time": "2026-05-28T20:40:02+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY281100FAZEMGC\n- **Game**: cs2\n- **Tournament**: Stake Ranked Episode 2 2026\n- **Teams**: FaZe vs magic\n- **Start Time**: 2026-05-28T20:40:02+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY281100FAZEMGC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543159+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280600ALL3DMAX-ALL",
+    "event_id": "KXCS2GAME-26MAY280600ALL3DMAX",
+    "game": "cs2",
+    "tournament": "Stake Ranked Episode 2 2026",
+    "participants": [
+      "Alliance",
+      "3DMAX"
+    ],
+    "start_time": "2026-05-28T13:40:09+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280600ALL3DMAX\n- **Game**: cs2\n- **Tournament**: Stake Ranked Episode 2 2026\n- **Teams**: Alliance vs 3DMAX\n- **Start Time**: 2026-05-28T13:40:09+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280600ALL3DMAX\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543236+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280600ALL3DMAX-3DMAX",
+    "event_id": "KXCS2GAME-26MAY280600ALL3DMAX",
+    "game": "cs2",
+    "tournament": "Stake Ranked Episode 2 2026",
+    "participants": [
+      "Alliance",
+      "3DMAX"
+    ],
+    "start_time": "2026-05-28T13:40:09+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280600ALL3DMAX\n- **Game**: cs2\n- **Tournament**: Stake Ranked Episode 2 2026\n- **Teams**: Alliance vs 3DMAX\n- **Start Time**: 2026-05-28T13:40:09+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280600ALL3DMAX\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543312+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271500DMGLUN-LUN",
+    "event_id": "KXLOLGAME-26MAY271500DMGLUN",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): DMG Esports",
+      "Lundqvist Lightside"
+    ],
+    "start_time": "2026-05-27T23:16:29+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271500DMGLUN\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): DMG Esports vs Lundqvist Lightside\n- **Start Time**: 2026-05-27T23:16:29+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271500DMGLUN\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543389+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271500DMGLUN-DMG",
+    "event_id": "KXLOLGAME-26MAY271500DMGLUN",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): DMG Esports",
+      "Lundqvist Lightside"
+    ],
+    "start_time": "2026-05-27T23:16:29+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271500DMGLUN\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): DMG Esports vs Lundqvist Lightside\n- **Start Time**: 2026-05-27T23:16:29+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271500DMGLUN\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543462+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271500DEELEO-LEO",
+    "event_id": "KXLOLGAME-26MAY271500DEELEO",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Deer Gaming",
+      "Lund Esports Organization"
+    ],
+    "start_time": "2026-05-27T23:16:52+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271500DEELEO\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Deer Gaming vs Lund Esports Organization\n- **Start Time**: 2026-05-27T23:16:52+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271500DEELEO\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543542+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271500DEELEO-DEE",
+    "event_id": "KXLOLGAME-26MAY271500DEELEO",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Deer Gaming",
+      "Lund Esports Organization"
+    ],
+    "start_time": "2026-05-27T23:16:52+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271500DEELEO\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Deer Gaming vs Lund Esports Organization\n- **Start Time**: 2026-05-27T23:16:52+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271500DEELEO\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543617+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271500ARCVER-VER",
+    "event_id": "KXLOLGAME-26MAY271500ARCVER",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Arctic Pandas",
+      "Verdant"
+    ],
+    "start_time": "2026-05-27T23:17:36+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271500ARCVER\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Arctic Pandas vs Verdant\n- **Start Time**: 2026-05-27T23:17:36+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271500ARCVER\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543687+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271500ARCVER-ARC",
+    "event_id": "KXLOLGAME-26MAY271500ARCVER",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Arctic Pandas",
+      "Verdant"
+    ],
+    "start_time": "2026-05-27T23:17:36+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271500ARCVER\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Arctic Pandas vs Verdant\n- **Start Time**: 2026-05-27T23:17:36+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271500ARCVER\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543758+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271500RUDBUL-RUD",
+    "event_id": "KXLOLGAME-26MAY271500RUDBUL",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Ruddy Corporation",
+      "Bulldog Esports"
+    ],
+    "start_time": "2026-05-27T23:16:10+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271500RUDBUL\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Ruddy Corporation vs Bulldog Esports\n- **Start Time**: 2026-05-27T23:16:10+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271500RUDBUL\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543857+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271500RUDBUL-BUL",
+    "event_id": "KXLOLGAME-26MAY271500RUDBUL",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Ruddy Corporation",
+      "Bulldog Esports"
+    ],
+    "start_time": "2026-05-27T23:16:10+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271500RUDBUL\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Ruddy Corporation vs Bulldog Esports\n- **Start Time**: 2026-05-27T23:16:10+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271500RUDBUL\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.543954+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271400DEEARC-DEE",
+    "event_id": "KXLOLGAME-26MAY271400DEEARC",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Deer Gaming",
+      "Arctic Pandas"
+    ],
+    "start_time": "2026-05-27T23:19:11+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271400DEEARC\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Deer Gaming vs Arctic Pandas\n- **Start Time**: 2026-05-27T23:19:11+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271400DEEARC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544026+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271400DEEARC-ARC",
+    "event_id": "KXLOLGAME-26MAY271400DEEARC",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Deer Gaming",
+      "Arctic Pandas"
+    ],
+    "start_time": "2026-05-27T23:19:11+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271400DEEARC\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Deer Gaming vs Arctic Pandas\n- **Start Time**: 2026-05-27T23:19:11+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271400DEEARC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544098+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271400LUNLEO-LUN",
+    "event_id": "KXLOLGAME-26MAY271400LUNLEO",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Lundqvist Lightside",
+      "Lund Esports Organization"
+    ],
+    "start_time": "2026-05-27T23:18:33+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271400LUNLEO\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Lundqvist Lightside vs Lund Esports Organization\n- **Start Time**: 2026-05-27T23:18:33+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271400LUNLEO\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544182+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271400LUNLEO-LEO",
+    "event_id": "KXLOLGAME-26MAY271400LUNLEO",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Lundqvist Lightside",
+      "Lund Esports Organization"
+    ],
+    "start_time": "2026-05-27T23:18:33+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271400LUNLEO\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Lundqvist Lightside vs Lund Esports Organization\n- **Start Time**: 2026-05-27T23:18:33+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271400LUNLEO\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544262+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271400DMGBUL-DMG",
+    "event_id": "KXLOLGAME-26MAY271400DMGBUL",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): DMG Esports",
+      "Bulldog Esports"
+    ],
+    "start_time": "2026-05-27T23:18:55+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271400DMGBUL\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): DMG Esports vs Bulldog Esports\n- **Start Time**: 2026-05-27T23:18:55+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271400DMGBUL\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544347+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271400DMGBUL-BUL",
+    "event_id": "KXLOLGAME-26MAY271400DMGBUL",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): DMG Esports",
+      "Bulldog Esports"
+    ],
+    "start_time": "2026-05-27T23:18:55+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271400DMGBUL\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): DMG Esports vs Bulldog Esports\n- **Start Time**: 2026-05-27T23:18:55+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271400DMGBUL\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544419+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271400VERRUD-VER",
+    "event_id": "KXLOLGAME-26MAY271400VERRUD",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Verdant",
+      "Ruddy Corporation"
+    ],
+    "start_time": "2026-05-27T23:17:59+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271400VERRUD\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Verdant vs Ruddy Corporation\n- **Start Time**: 2026-05-27T23:17:59+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271400VERRUD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544491+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271400VERRUD-RUD",
+    "event_id": "KXLOLGAME-26MAY271400VERRUD",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Verdant",
+      "Ruddy Corporation"
+    ],
+    "start_time": "2026-05-27T23:17:59+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271400VERRUD\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Verdant vs Ruddy Corporation\n- **Start Time**: 2026-05-27T23:17:59+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271400VERRUD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544564+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271300DEEDMG-DMG",
+    "event_id": "KXLOLGAME-26MAY271300DEEDMG",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Deer Gaming",
+      "DMG Esports"
+    ],
+    "start_time": "2026-05-27T18:28:36+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271300DEEDMG\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Deer Gaming vs DMG Esports\n- **Start Time**: 2026-05-27T18:28:36+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271300DEEDMG\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544634+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271300DEEDMG-DEE",
+    "event_id": "KXLOLGAME-26MAY271300DEEDMG",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Deer Gaming",
+      "DMG Esports"
+    ],
+    "start_time": "2026-05-27T18:28:36+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271300DEEDMG\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Deer Gaming vs DMG Esports\n- **Start Time**: 2026-05-27T18:28:36+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271300DEEDMG\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544705+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271300LUNVER-VER",
+    "event_id": "KXLOLGAME-26MAY271300LUNVER",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Lundqvist Lightside",
+      "Verdant"
+    ],
+    "start_time": "2026-05-27T18:28:34+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271300LUNVER\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Lundqvist Lightside vs Verdant\n- **Start Time**: 2026-05-27T18:28:34+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271300LUNVER\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544775+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271300LUNVER-LUN",
+    "event_id": "KXLOLGAME-26MAY271300LUNVER",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Lundqvist Lightside",
+      "Verdant"
+    ],
+    "start_time": "2026-05-27T18:28:34+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271300LUNVER\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Lundqvist Lightside vs Verdant\n- **Start Time**: 2026-05-27T18:28:34+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271300LUNVER\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544851+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271300ARCRUD-RUD",
+    "event_id": "KXLOLGAME-26MAY271300ARCRUD",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Arctic Pandas",
+      "Ruddy Corporation"
+    ],
+    "start_time": "2026-05-27T18:28:37+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271300ARCRUD\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Arctic Pandas vs Ruddy Corporation\n- **Start Time**: 2026-05-27T18:28:37+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271300ARCRUD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.544931+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271300ARCRUD-ARC",
+    "event_id": "KXLOLGAME-26MAY271300ARCRUD",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Arctic Pandas",
+      "Ruddy Corporation"
+    ],
+    "start_time": "2026-05-27T18:28:37+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271300ARCRUD\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Arctic Pandas vs Ruddy Corporation\n- **Start Time**: 2026-05-27T18:28:37+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271300ARCRUD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.545011+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271300LEOBUL-LEO",
+    "event_id": "KXLOLGAME-26MAY271300LEOBUL",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Lund Esports Organization",
+      "Bulldog Esports"
+    ],
+    "start_time": "2026-05-27T18:28:35+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271300LEOBUL\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Lund Esports Organization vs Bulldog Esports\n- **Start Time**: 2026-05-27T18:28:35+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271300LEOBUL\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.545099+00:00"
+  },
+  {
+    "market_id": "KXLOLGAME-26MAY271300LEOBUL-BUL",
+    "event_id": "KXLOLGAME-26MAY271300LEOBUL",
+    "game": "league-of-legends",
+    "tournament": "NLC - Spring 2026 (Regular Season",
+    "participants": [
+      "Regular Season): Lund Esports Organization",
+      "Bulldog Esports"
+    ],
+    "start_time": "2026-05-27T18:28:35+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXLOLGAME-26MAY271300LEOBUL\n- **Game**: league-of-legends\n- **Tournament**: NLC - Spring 2026 (Regular Season\n- **Teams**: Regular Season): Lund Esports Organization vs Bulldog Esports\n- **Start Time**: 2026-05-27T18:28:35+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXLOLGAME-26MAY271300LEOBUL\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.545179+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280700ORMURSA-URSA",
+    "event_id": "KXCS2GAME-26MAY280700ORMURSA",
+    "game": "cs2",
+    "tournament": "CCT Europe Series 3 2026",
+    "participants": [
+      "Oramond",
+      "Ursa"
+    ],
+    "start_time": "2026-05-28T10:31:39+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280700ORMURSA\n- **Game**: cs2\n- **Tournament**: CCT Europe Series 3 2026\n- **Teams**: Oramond vs Ursa\n- **Start Time**: 2026-05-28T10:31:39+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280700ORMURSA\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.545261+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY280700ORMURSA-ORM",
+    "event_id": "KXCS2GAME-26MAY280700ORMURSA",
+    "game": "cs2",
+    "tournament": "CCT Europe Series 3 2026",
+    "participants": [
+      "Oramond",
+      "Ursa"
+    ],
+    "start_time": "2026-05-28T10:31:39+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY280700ORMURSA\n- **Game**: cs2\n- **Tournament**: CCT Europe Series 3 2026\n- **Teams**: Oramond vs Ursa\n- **Start Time**: 2026-05-28T10:31:39+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY280700ORMURSA\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.545346+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY270700ORMNEMI-ORM",
+    "event_id": "KXCS2GAME-26MAY270700ORMNEMI",
+    "game": "cs2",
+    "tournament": "CCT Europe Series 2 2026",
+    "participants": [
+      "Oramond",
+      "Nemiga"
+    ],
+    "start_time": "2026-05-27T14:30:05+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY270700ORMNEMI\n- **Game**: cs2\n- **Tournament**: CCT Europe Series 2 2026\n- **Teams**: Oramond vs Nemiga\n- **Start Time**: 2026-05-27T14:30:05+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY270700ORMNEMI\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.545427+00:00"
+  },
+  {
+    "market_id": "KXCS2GAME-26MAY270700ORMNEMI-NEMI",
+    "event_id": "KXCS2GAME-26MAY270700ORMNEMI",
+    "game": "cs2",
+    "tournament": "CCT Europe Series 2 2026",
+    "participants": [
+      "Oramond",
+      "Nemiga"
+    ],
+    "start_time": "2026-05-27T14:30:05+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXCS2GAME-26MAY270700ORMNEMI\n- **Game**: cs2\n- **Tournament**: CCT Europe Series 2 2026\n- **Teams**: Oramond vs Nemiga\n- **Start Time**: 2026-05-27T14:30:05+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXCS2GAME-26MAY270700ORMNEMI\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T12:53:40.545506+00:00"
+  }
+]

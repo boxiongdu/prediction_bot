@@ -1,0 +1,590 @@
+[
+  {
+    "market_id": "KXDOTA2GAME-26MAY281210OGLGD-OG",
+    "event_id": "KXDOTA2GAME-26MAY281210OGLGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "OG",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-28T16:00:05+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY281210OGLGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: OG vs LGD Gaming\n- **Start Time**: 2026-05-28T16:00:05+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY281210OGLGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.385699+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY281210OGLGD-LGD",
+    "event_id": "KXDOTA2GAME-26MAY281210OGLGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "OG",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-28T16:00:05+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY281210OGLGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: OG vs LGD Gaming\n- **Start Time**: 2026-05-28T16:00:05+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY281210OGLGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.385926+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280730PARILGD-PARI",
+    "event_id": "KXDOTA2GAME-26MAY280730PARILGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "PARIVISION",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-28T13:49:58+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280730PARILGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: PARIVISION vs LGD Gaming\n- **Start Time**: 2026-05-28T13:49:58+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280730PARILGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386004+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280730PARILGD-LGD",
+    "event_id": "KXDOTA2GAME-26MAY280730PARILGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "PARIVISION",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-28T13:49:58+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280730PARILGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: PARIVISION vs LGD Gaming\n- **Start Time**: 2026-05-28T13:49:58+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280730PARILGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386074+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY281210GLYXTREME-XTREME",
+    "event_id": "KXDOTA2GAME-26MAY281210GLYXTREME",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "GLYPH",
+      "Xtreme Gaming"
+    ],
+    "start_time": "2026-05-28T18:41:32+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY281210GLYXTREME\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: GLYPH vs Xtreme Gaming\n- **Start Time**: 2026-05-28T18:41:32+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY281210GLYXTREME\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386143+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY281210GLYXTREME-GLY",
+    "event_id": "KXDOTA2GAME-26MAY281210GLYXTREME",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "GLYPH",
+      "Xtreme Gaming"
+    ],
+    "start_time": "2026-05-28T18:41:32+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY281210GLYXTREME\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: GLYPH vs Xtreme Gaming\n- **Start Time**: 2026-05-28T18:41:32+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY281210GLYXTREME\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386207+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY281100PARIAUR-PARI",
+    "event_id": "KXDOTA2GAME-26MAY281100PARIAUR",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "PARIVISION",
+      "Aurora"
+    ],
+    "start_time": "2026-05-28T17:01:21+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY281100PARIAUR\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: PARIVISION vs Aurora\n- **Start Time**: 2026-05-28T17:01:21+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY281100PARIAUR\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386269+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY281100PARIAUR-AUR",
+    "event_id": "KXDOTA2GAME-26MAY281100PARIAUR",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "PARIVISION",
+      "Aurora"
+    ],
+    "start_time": "2026-05-28T17:01:21+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY281100PARIAUR\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: PARIVISION vs Aurora\n- **Start Time**: 2026-05-28T17:01:21+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY281100PARIAUR\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386330+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY281100BBTY-TY",
+    "event_id": "KXDOTA2GAME-26MAY281100BBTY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "BetBoom Team",
+      "Team Yandex"
+    ],
+    "start_time": "2026-05-28T16:09:53+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY281100BBTY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: BetBoom Team vs Team Yandex\n- **Start Time**: 2026-05-28T16:09:53+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY281100BBTY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386395+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY281100BBTY-BB",
+    "event_id": "KXDOTA2GAME-26MAY281100BBTY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "BetBoom Team",
+      "Team Yandex"
+    ],
+    "start_time": "2026-05-28T16:09:53+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY281100BBTY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: BetBoom Team vs Team Yandex\n- **Start Time**: 2026-05-28T16:09:53+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY281100BBTY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386459+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280950LIQUIDTS-TS",
+    "event_id": "KXDOTA2GAME-26MAY280950LIQUIDTS",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Liquid",
+      "Team Spirit"
+    ],
+    "start_time": "2026-05-28T20:08:23+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280950LIQUIDTS\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Liquid vs Team Spirit\n- **Start Time**: 2026-05-28T20:08:23+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280950LIQUIDTS\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386527+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280950LIQUIDTS-LIQUID",
+    "event_id": "KXDOTA2GAME-26MAY280950LIQUIDTS",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Liquid",
+      "Team Spirit"
+    ],
+    "start_time": "2026-05-28T20:08:23+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280950LIQUIDTS\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Liquid vs Team Spirit\n- **Start Time**: 2026-05-28T20:08:23+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280950LIQUIDTS\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386590+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280950TUNDRAFLC-TUNDRA",
+    "event_id": "KXDOTA2GAME-26MAY280950TUNDRAFLC",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Tundra Esports",
+      "Team Falcons"
+    ],
+    "start_time": "2026-05-28T15:22:38+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280950TUNDRAFLC\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Tundra Esports vs Team Falcons\n- **Start Time**: 2026-05-28T15:22:38+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280950TUNDRAFLC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386657+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280950TUNDRAFLC-FLC",
+    "event_id": "KXDOTA2GAME-26MAY280950TUNDRAFLC",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Tundra Esports",
+      "Team Falcons"
+    ],
+    "start_time": "2026-05-28T15:22:38+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280950TUNDRAFLC\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Tundra Esports vs Team Falcons\n- **Start Time**: 2026-05-28T15:22:38+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280950TUNDRAFLC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386721+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280840XTREMETS-XTREME",
+    "event_id": "KXDOTA2GAME-26MAY280840XTREMETS",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Xtreme Gaming",
+      "Team Spirit"
+    ],
+    "start_time": "2026-05-28T15:10:02+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280840XTREMETS\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Xtreme Gaming vs Team Spirit\n- **Start Time**: 2026-05-28T15:10:02+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280840XTREMETS\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386786+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280840XTREMETS-TS",
+    "event_id": "KXDOTA2GAME-26MAY280840XTREMETS",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Xtreme Gaming",
+      "Team Spirit"
+    ],
+    "start_time": "2026-05-28T15:10:02+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280840XTREMETS\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Xtreme Gaming vs Team Spirit\n- **Start Time**: 2026-05-28T15:10:02+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280840XTREMETS\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386849+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280840AURTY-TY",
+    "event_id": "KXDOTA2GAME-26MAY280840AURTY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Aurora",
+      "Team Yandex"
+    ],
+    "start_time": "2026-05-28T14:32:24+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280840AURTY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Aurora vs Team Yandex\n- **Start Time**: 2026-05-28T14:32:24+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280840AURTY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386915+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280840AURTY-AUR",
+    "event_id": "KXDOTA2GAME-26MAY280840AURTY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Aurora",
+      "Team Yandex"
+    ],
+    "start_time": "2026-05-28T14:32:24+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280840AURTY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Aurora vs Team Yandex\n- **Start Time**: 2026-05-28T14:32:24+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280840AURTY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.386976+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280730GLYOG-OG",
+    "event_id": "KXDOTA2GAME-26MAY280730GLYOG",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "GLYPH",
+      "OG"
+    ],
+    "start_time": "2026-05-28T15:22:39+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280730GLYOG\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: GLYPH vs OG\n- **Start Time**: 2026-05-28T15:22:39+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280730GLYOG\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387032+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280730GLYOG-GLY",
+    "event_id": "KXDOTA2GAME-26MAY280730GLYOG",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "GLYPH",
+      "OG"
+    ],
+    "start_time": "2026-05-28T15:22:39+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280730GLYOG\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: GLYPH vs OG\n- **Start Time**: 2026-05-28T15:22:39+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280730GLYOG\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387088+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280620BBXTREME-XTREME",
+    "event_id": "KXDOTA2GAME-26MAY280620BBXTREME",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "BetBoom Team",
+      "Xtreme Gaming"
+    ],
+    "start_time": "2026-05-28T12:10:15+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280620BBXTREME\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: BetBoom Team vs Xtreme Gaming\n- **Start Time**: 2026-05-28T12:10:15+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280620BBXTREME\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387152+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280620BBXTREME-BB",
+    "event_id": "KXDOTA2GAME-26MAY280620BBXTREME",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "BetBoom Team",
+      "Xtreme Gaming"
+    ],
+    "start_time": "2026-05-28T12:10:15+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280620BBXTREME\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: BetBoom Team vs Xtreme Gaming\n- **Start Time**: 2026-05-28T12:10:15+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280620BBXTREME\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387216+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280620LIQUIDAUR-LIQUID",
+    "event_id": "KXDOTA2GAME-26MAY280620LIQUIDAUR",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Liquid",
+      "Aurora"
+    ],
+    "start_time": "2026-05-28T11:30:22+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280620LIQUIDAUR\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Liquid vs Aurora\n- **Start Time**: 2026-05-28T11:30:22+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280620LIQUIDAUR\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387278+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280620LIQUIDAUR-AUR",
+    "event_id": "KXDOTA2GAME-26MAY280620LIQUIDAUR",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Liquid",
+      "Aurora"
+    ],
+    "start_time": "2026-05-28T11:30:22+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280620LIQUIDAUR\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Liquid vs Aurora\n- **Start Time**: 2026-05-28T11:30:22+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280620LIQUIDAUR\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387337+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280510TUNDRATY-TY",
+    "event_id": "KXDOTA2GAME-26MAY280510TUNDRATY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Tundra Esports",
+      "Team Yandex"
+    ],
+    "start_time": "2026-05-28T11:11:04+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280510TUNDRATY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Tundra Esports vs Team Yandex\n- **Start Time**: 2026-05-28T11:11:04+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280510TUNDRATY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387400+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280510TUNDRATY-TUNDRA",
+    "event_id": "KXDOTA2GAME-26MAY280510TUNDRATY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Tundra Esports",
+      "Team Yandex"
+    ],
+    "start_time": "2026-05-28T11:11:04+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280510TUNDRATY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Tundra Esports vs Team Yandex\n- **Start Time**: 2026-05-28T11:11:04+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280510TUNDRATY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387466+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280510TSFLC-TS",
+    "event_id": "KXDOTA2GAME-26MAY280510TSFLC",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Spirit",
+      "Team Falcons"
+    ],
+    "start_time": "2026-05-28T10:31:42+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280510TSFLC\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Spirit vs Team Falcons\n- **Start Time**: 2026-05-28T10:31:42+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280510TSFLC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387530+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280510TSFLC-FLC",
+    "event_id": "KXDOTA2GAME-26MAY280510TSFLC",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Spirit",
+      "Team Falcons"
+    ],
+    "start_time": "2026-05-28T10:31:42+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280510TSFLC\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Spirit vs Team Falcons\n- **Start Time**: 2026-05-28T10:31:42+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280510TSFLC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387595+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280400PARIGLY-PARI",
+    "event_id": "KXDOTA2GAME-26MAY280400PARIGLY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "PARIVISION",
+      "GLYPH"
+    ],
+    "start_time": "2026-05-28T09:30:28+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280400PARIGLY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: PARIVISION vs GLYPH\n- **Start Time**: 2026-05-28T09:30:28+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280400PARIGLY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387657+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280400PARIGLY-GLY",
+    "event_id": "KXDOTA2GAME-26MAY280400PARIGLY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "PARIVISION",
+      "GLYPH"
+    ],
+    "start_time": "2026-05-28T09:30:28+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280400PARIGLY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: PARIVISION vs GLYPH\n- **Start Time**: 2026-05-28T09:30:28+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280400PARIGLY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387725+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280400BBOG-OG",
+    "event_id": "KXDOTA2GAME-26MAY280400BBOG",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "BetBoom Team",
+      "OG"
+    ],
+    "start_time": "2026-05-28T09:30:29+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280400BBOG\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: BetBoom Team vs OG\n- **Start Time**: 2026-05-28T09:30:29+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280400BBOG\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387789+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY280400BBOG-BB",
+    "event_id": "KXDOTA2GAME-26MAY280400BBOG",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "BetBoom Team",
+      "OG"
+    ],
+    "start_time": "2026-05-28T09:30:29+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY280400BBOG\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: BetBoom Team vs OG\n- **Start Time**: 2026-05-28T09:30:29+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY280400BBOG\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387852+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY260730LGDGLY-LGD",
+    "event_id": "KXDOTA2GAME-26MAY260730LGDGLY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "LGD Gaming",
+      "GLYPH"
+    ],
+    "start_time": "2026-05-26T13:10:11+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY260730LGDGLY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: LGD Gaming vs GLYPH\n- **Start Time**: 2026-05-26T13:10:11+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY260730LGDGLY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387918+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY260730LGDGLY-GLY",
+    "event_id": "KXDOTA2GAME-26MAY260730LGDGLY",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "LGD Gaming",
+      "GLYPH"
+    ],
+    "start_time": "2026-05-26T13:10:11+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY260730LGDGLY\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: LGD Gaming vs GLYPH\n- **Start Time**: 2026-05-26T13:10:11+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY260730LGDGLY\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.387978+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY261100LGDFLC-LGD",
+    "event_id": "KXDOTA2GAME-26MAY261100LGDFLC",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "LGD Gaming",
+      "Team Falcons"
+    ],
+    "start_time": "2026-05-26T17:00:12+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY261100LGDFLC\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: LGD Gaming vs Team Falcons\n- **Start Time**: 2026-05-26T17:00:12+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY261100LGDFLC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.388042+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY261100LGDFLC-FLC",
+    "event_id": "KXDOTA2GAME-26MAY261100LGDFLC",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "LGD Gaming",
+      "Team Falcons"
+    ],
+    "start_time": "2026-05-26T17:00:12+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY261100LGDFLC\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: LGD Gaming vs Team Falcons\n- **Start Time**: 2026-05-26T17:00:12+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY261100LGDFLC\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.388107+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY271210LIQUIDLGD-LIQUID",
+    "event_id": "KXDOTA2GAME-26MAY271210LIQUIDLGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Liquid",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-27T18:00:03+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY271210LIQUIDLGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Liquid vs LGD Gaming\n- **Start Time**: 2026-05-27T18:00:03+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY271210LIQUIDLGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.388172+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY271210LIQUIDLGD-LGD",
+    "event_id": "KXDOTA2GAME-26MAY271210LIQUIDLGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Liquid",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-27T18:00:03+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY271210LIQUIDLGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Liquid vs LGD Gaming\n- **Start Time**: 2026-05-27T18:00:03+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY271210LIQUIDLGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.388235+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY270840TSLGD-TS",
+    "event_id": "KXDOTA2GAME-26MAY270840TSLGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Spirit",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-27T13:51:38+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY270840TSLGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Spirit vs LGD Gaming\n- **Start Time**: 2026-05-27T13:51:38+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY270840TSLGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.388301+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY270840TSLGD-LGD",
+    "event_id": "KXDOTA2GAME-26MAY270840TSLGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Team Spirit",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-27T13:51:38+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY270840TSLGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Team Spirit vs LGD Gaming\n- **Start Time**: 2026-05-27T13:51:38+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY270840TSLGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.388364+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY270400AURLGD-LGD",
+    "event_id": "KXDOTA2GAME-26MAY270400AURLGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Aurora",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-27T09:40:55+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY270400AURLGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Aurora vs LGD Gaming\n- **Start Time**: 2026-05-27T09:40:55+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY270400AURLGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.388426+00:00"
+  },
+  {
+    "market_id": "KXDOTA2GAME-26MAY270400AURLGD-AUR",
+    "event_id": "KXDOTA2GAME-26MAY270400AURLGD",
+    "game": "dota2",
+    "tournament": null,
+    "participants": [
+      "Aurora",
+      "LGD Gaming"
+    ],
+    "start_time": "2026-05-27T09:40:55+00:00",
+    "contract_type": "match_winner",
+    "research_prompt": "You are an independent esports analyst estimating win probability.\n\n## Task\nEstimate the probability that each team wins this match. Your output must be a\nvalid JSON object matching the PredictionResponse schema.\n\n## Important Rules\n- Estimate probability, do NOT give betting advice.\n- Consider: team strength, recent performance, roster stability, tournament\n  importance, match format, historical matchup results, and the\n  quality/quantity of available information.\n- Do NOT fabricate statistics. If you don't know a fact, work with what you have.\n- Separate known facts from assumptions.\n- If information is severely insufficient, set abstain=true, confidence=low,\n  and assign 0.5/0.5 probabilities.\n- Probabilities must sum to 1.0.\n\n## Match Details\n- **Event ID**: KXDOTA2GAME-26MAY270400AURLGD\n- **Game**: dota2\n- **Tournament**: Unknown\n- **Teams**: Aurora vs LGD Gaming\n- **Start Time**: 2026-05-27T09:40:55+00:00\n- **Contract Types**: match_winner\n\n\n## Required Output Format\nRespond with ONLY a valid JSON object (no markdown fences, no surrounding text):\n\n{\n  \"event_id\": \"KXDOTA2GAME-26MAY270400AURLGD\",\n  \"predicted_winner\": \"<team name or 'abstain'>\",\n  \"team_a_probability\": <float 0.0-1.0>,\n  \"team_b_probability\": <float 0.0-1.0>,\n  \"confidence\": \"low\" | \"medium\" | \"high\",\n  \"abstain\": true | false,\n  \"reasoning_summary\": \"<brief summary>\",\n  \"key_factors\": [\"<factor 1>\", \"<factor 2>\", ...],\n  \"risk_flags\": [\"<risk 1>\", \"<risk 2>\", ...]\n}\n",
+    "generated_at": "2026-07-28T13:40:23.388486+00:00"
+  }
+]

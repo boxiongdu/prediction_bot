@@ -1,0 +1,50 @@
+{
+  "total_predictions": 249,
+  "total_settled": 249,
+  "total_correct": 127,
+  "overall_accuracy": 0.5100401606425703,
+  "brier_score": 0.23317269076305236,
+  "fair_coin_accuracy": 0.047619047619047616,
+  "confidence_breakdowns": [
+    {
+      "confidence": "high",
+      "total": 8,
+      "correct": 5,
+      "accuracy": 0.625
+    },
+    {
+      "confidence": "medium",
+      "total": 199,
+      "correct": 120,
+      "accuracy": 0.6030150753768844
+    },
+    {
+      "confidence": "low",
+      "total": 42,
+      "correct": 2,
+      "accuracy": 0.047619047619047616
+    }
+  ],
+  "calibration_bins": [
+    {
+      "bin": "0.5\u20130.6",
+      "count": 121,
+      "observed_rate": 0.03305785123966942
+    },
+    {
+      "bin": "0.6\u20130.7",
+      "count": 119,
+      "observed_rate": 0.9831932773109243
+    },
+    {
+      "bin": "0.7\u20130.8",
+      "count": 7,
+      "observed_rate": 0.8571428571428571
+    },
+    {
+      "bin": "0.8\u20130.9",
+      "count": 2,
+      "observed_rate": 0.0
+    }
+  ]
+}
