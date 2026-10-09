@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "model_code_sha256": "dfd71e90a0ab374e3a37579cc286db8dc4d9791247054ec15644f8a2bd5eb65d",
+  "config": {
+    "id": "elo_k40_d0.3",
+    "kind": "elo",
+    "k": 40,
+    "draw_rate": 0.3,
+    "decay": 0.95
+  },
+  "development_sha256": "c4a871be1757094566b0072b62d1e1259e738f074e1002ab61c06f4665f0c8e1",
+  "selection_metric": "2425 log loss",
+  "features": [
+    "home_attack",
+    "home_defense",
+    "away_attack",
+    "away_defense"
+  ],
+  "holdout_season": "2526",
+  "coefficient_policy": "Frozen per evaluated season; refit on all earlier modeling seasons before next season",
+  "promotion_factor": 0.85,
+  "championship_initial_elo": 1350,
+  "home_advantage": 60
+}
