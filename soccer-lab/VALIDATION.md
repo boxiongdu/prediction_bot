@@ -32,7 +32,17 @@ All 12 independent tests passed on the implementation reviewed. The tests check:
 8. There are no odds comparisons, executable price checks, portfolio returns, Kalshi orders or live deployment in this phase. Model predictive performance cannot establish trading profitability alone.
 9. Bounded Astra calls write role memos and proposals; they do not modify code, tune against test outcomes, change match probabilities, or execute orders. Authenticated API behavior requires a configured account and is separate from offline checks.
 
-## Paper status
+## Sizing addition
+
+The suite now also includes 11 sizing tests, for 23 total tests.
+These use synthetic quotes and outcomes. They cover fixed and quarter-Kelly
+quantities, fee rounding and missing fee quotes, YES/NO mapping, depth/cash/risk
+caps, concurrent reservation attempts, persistent restart state, no re-entry,
+gross losses without profit offsets, Chicago midnight rollover and code-enforced
+policy caps. This validates the paper ledger only; no exchange fills, live
+account reconciliation or market fee retrieval have been tested.
+
+## Paper-method replication status
 
 The official arXiv abstract for [Machine Learning for Soccer Match Result Prediction](https://arxiv.org/abs/2403.07669) identifies it as an overview of datasets, models, features and evaluation. It is background for candidate selection, not one reproducible model specification.
 

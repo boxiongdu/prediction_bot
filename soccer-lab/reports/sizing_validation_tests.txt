@@ -1,0 +1,28 @@
+test_contradictory_optional_shots_are_quarantined (test_pipeline.PipelineTests.test_contradictory_optional_shots_are_quarantined) ... ok
+test_current_and_future_results_cannot_change_current_features (test_pipeline.PipelineTests.test_current_and_future_results_cannot_change_current_features) ... ok
+test_features_reproducible (test_pipeline.PipelineTests.test_features_reproducible) ... ok
+test_forecast_contract_and_frozen_code (test_pipeline.PipelineTests.test_forecast_contract_and_frozen_code) ... ok
+test_holdout_is_not_used_for_selection_and_is_single_use (test_pipeline.PipelineTests.test_holdout_is_not_used_for_selection_and_is_single_use) ... ok
+test_ingestion_excludes_odds_and_preserves_cutoff (test_pipeline.PipelineTests.test_ingestion_excludes_odds_and_preserves_cutoff) ... ok
+test_invalid_label_and_duplicate_fail_closed (test_pipeline.PipelineTests.test_invalid_label_and_duplicate_fail_closed) ... ok
+test_no_feature_timestamp_after_cutoff (test_pipeline.PipelineTests.test_no_feature_timestamp_after_cutoff) ... ok
+test_previous_available_result_does_change_later_features (test_pipeline.PipelineTests.test_previous_available_result_does_change_later_features) ... ok
+test_probability_domain_and_normalization (test_pipeline.PipelineTests.test_probability_domain_and_normalization) ... ok
+test_promoted_team_retains_history_with_translation (test_pipeline.PipelineTests.test_promoted_team_retains_history_with_translation) ... ok
+test_same_day_unavailable_result_is_excluded (test_pipeline.PipelineTests.test_same_day_unavailable_result_is_excluded) ... ok
+test_approved_policy_caps_and_clock_cannot_be_relaxed (test_sizing.SizingTests.test_approved_policy_caps_and_clock_cannot_be_relaxed) ... ok
+test_cash_depth_daily_and_open_risk_caps (test_sizing.SizingTests.test_cash_depth_daily_and_open_risk_caps) ... ok
+test_concurrent_different_fixtures_enforce_global_caps (test_sizing.SizingTests.test_concurrent_different_fixtures_enforce_global_caps) ... ok
+test_concurrent_same_fixture_cannot_reserve_twice (test_sizing.SizingTests.test_concurrent_same_fixture_cannot_reserve_twice) ... ok
+test_fee_rounding_explicit_table_and_positive_edge (test_sizing.SizingTests.test_fee_rounding_explicit_table_and_positive_edge) ... ok
+test_fixed_stake_and_no_complement (test_sizing.SizingTests.test_fixed_stake_and_no_complement) ... ok
+test_freshness_cutoff_and_input_fail_closed (test_sizing.SizingTests.test_freshness_cutoff_and_input_fail_closed) ... ok
+test_losses_reset_at_local_midnight_only (test_sizing.SizingTests.test_losses_reset_at_local_midnight_only) ... ok
+test_pending_survives_chicago_midnight (test_sizing.SizingTests.test_pending_survives_chicago_midnight) ... ok
+test_quarter_kelly_and_bankroll_cap (test_sizing.SizingTests.test_quarter_kelly_and_bankroll_cap) ... ok
+test_restart_gross_losses_and_no_reentry (test_sizing.SizingTests.test_restart_gross_losses_and_no_reentry) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.145s
+
+OK

@@ -5,3 +5,7 @@ __pycache__/
 data/
 runs/
 *.pem
+*.sqlite
+*.sqlite-*
+*.db
+request.json

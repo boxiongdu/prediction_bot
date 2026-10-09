@@ -54,3 +54,17 @@ existing trading system, enable trading, merge this branch, or open the held-out
 as a side effect of deployment. No continuous scheduler, kickoff feed, failure-alert
 service or automatic recovery is installed by this branch; these require a separate
 implementation and verification step after the bounded run works.
+
+## Paper sizing
+
+`sizing.py` and `risk_policy.json` provide deterministic paper sizing. See SIZING.md.
+Use a single persistent SQLite ledger for one experiment; never use a new ledger
+per invocation. Pending reservations count immediately and survive restart. The
+default is $5 fixed stakes with $10 maximum match loss and $50 aggregate/daily
+limits. Quarter Kelly is a separate paper challenger. Agents cannot loosen the
+approved code-enforced caps through a sizing request. The synthetic demonstration
+uses temporary ledgers only to illustrate the two methods.
+
+This does not integrate sizing into market discovery or forecast jobs. Fee quotes,
+canonical fixture/contract mapping, actual order/fill reconciliation, and any live
+execution remain separate work. Do not treat a paper reservation as an actual fill.

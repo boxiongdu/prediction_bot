@@ -3,7 +3,13 @@
 EPL pre-match probability research, with Championship histories for promoted teams.
 Forecasts target regulation plus stoppage time: home win, draw, away win.
 Forecast cutoff is two hours before kickoff. No odds inputs or odds benchmarks.
-No trading, news overrides, exits, or portfolio exists in this phase.
+Forecast jobs do not execute trades, apply news overrides, or manage exits.
+
+Deterministic **paper position sizing** is now available separately: see
+[SIZING.md](SIZING.md). Default $5 fixed stakes, quarter-Kelly challenger, $10 match
+cap, $50 aggregate/daily risk budgets, explicit fees and persistent reservations.
+Run `python sizing_demo.py` for a synthetic example. This module is not connected
+to forecast jobs or exchange execution; no live portfolio exists.
 
 ## Three roles
 
