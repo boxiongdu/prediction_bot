@@ -6,7 +6,7 @@ The system predicts a series-winner probability from a calibrated Random Forest 
 
 ## Status
 
-**Live (small-scale, experimental).** The match-winner bot is deployed as a `systemd` service (`lol-match-bot.service`) and places real orders on Kalshi's `KXLOLGAME` markets. It runs with a deliberately small configured bankroll and conservative position sizing.
+The match-winner bot is deployed as a `systemd` service (`lol-match-bot.service`) and places real orders on Kalshi's `KXLOLGAME` markets. It runs with a deliberately small configured bankroll and conservative position sizing.
 
 > The repository's original `README`/`PROJECT.md`/`docs/architecture.md` described a paper-trading-only research prototype. That description is outdated: the deployed system has evolved into a live trading bot. See [docs/architecture.md](docs/architecture.md) for the current architecture.
 
