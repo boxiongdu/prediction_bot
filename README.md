@@ -10,7 +10,7 @@ The match-winner bot is deployed as a `systemd` service (`lol-match-bot.service`
 
 > The repository's original `README`/`PROJECT.md`/`docs/architecture.md` described a paper-trading-only research prototype. That description is outdated: the deployed system has evolved into a live trading bot. See [docs/architecture.md](docs/architecture.md) for the current architecture.
 
-A second, related component — a per-**map** winner model ("Model D", `KXLOLMAP` markets) — exists in the repository but is a **shadow / not-live** candidate (see "Implemented vs. planned" below).
+A per-**map** winner model ("Model D", `KXLOLMAP` markets)  exists in the repository but is a **not-live** candidate (see "Implemented vs. planned" below).
 
 ## What the LoL bot actually does
 
