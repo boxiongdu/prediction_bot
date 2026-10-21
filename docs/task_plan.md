@@ -1,8 +1,10 @@
 # Task Plan
 
-> Last updated: 2026-07-28
+> Last updated: 2026-10-21 (status annotations added; original plan text preserved)
 > Author: prediction_bot team
 > Companion documents: architecture.md, research_plan.md, PROJECT.md
+
+> **⚠️ Historical document.** This 12-milestone plan describes the *original* paper-trading research prototype. The system has since **pivoted to a live Random Forest–based trading bot** (`src/prediction_bot/trading/match_winner_bot.py`). The plan below is preserved as the historical design record; see **"Current Implementation Status"** for how each milestone maps to what was actually built.
 
 ---
 
@@ -13,6 +15,28 @@ This document divides the project into 12 milestones. Each milestone is small, t
 **Rule**: Every milestone that produces code must include tests. Leakage tests are non-negotiable for any feature that touches match data.
 
 ---
+
+## Current Implementation Status (added 2026-10-21)
+
+| # | Milestone | Actual status |
+|---|-----------|---------------|
+| 1 | Project skeleton & configuration | ✅ Built — `pyproject.toml`, `config/settings.py`, `config/paths.py`, test scaffold |
+| 2 | Historical data ingestion | ✅ Built differently — Oracle's Elixir CSVs loaded via `esports/dataset.py` (leakage-safe queries); no SQLAlchemy canonical schema |
+| 3 | Canonical teams & rosters | ✅ Partial — `esports/leaguepedia_rosters.py`, `trading/team_identity.py`; no full roster-timeline table |
+| 4 | Elo baseline | ✅ Built — Elo features (`elo_a/elo_b/elo_diff`) are part of the production feature set |
+| 5 | Walk-forward evaluation | ✅ Built — `scripts/map_winner_pipeline.py` (monthly retrains, rolling window) |
+| 6 | Logistic regression + calibration | ⚠️ Superseded — production model is **Random Forest + Platt** calibration, not logistic regression |
+| 7 | Kalshi read-only client | ✅ Built — `kalshi/client.py` + RSA-PSS `signing.py` (now also used for authenticated order placement) |
+| 8 | Event matching | ✅ Built differently — ticker/title parsing (`parse_market_teams`, `esports/map_ticker.py`) instead of a separate matching module |
+| 9 | Snapshot collection | ⚠️ Superseded — the live bot reads live market data directly; no append-only snapshot store |
+| 10 | Paper trading simulator | ✅ Built — `tracking/` paper trader; the main bot subsequently evolved to **live** execution |
+| 11 | Hermes decision layer | ❌ Not built — superseded by deterministic risk gates + Discord cold-start approval in `match_winner_bot.py` |
+| 12 | Attribution reports | ❌ Partial — settlement/P&L computed, but no formal edge-vs-luck attribution |
+
+**Pivot summary:** the original plan assumed a logistic-regression → paper-simulator → LLM-review progression. What shipped is a **live Random Forest model** with **deterministic risk controls**, no LLM decision layer, and direct Kalshi execution. `docs/architecture.md` documents the actual shipped system.
+
+---
+
 
 ## Milestone 1: Project Skeleton and Configuration
 
@@ -449,17 +473,17 @@ M1 (skeleton)
 
 ## Milestone Summary Table
 
-| # | Milestone | Est. Files | Est. Tests | Depends On |
-|---|-----------|-----------|-----------|------------|
-| 1 | Project skeleton | 6 | 3 | — |
-| 2 | Historical data ingestion | 10 | 3 | M1 |
-| 3 | Canonical teams & rosters | 5 | 3 | M2 |
-| 4 | Elo baseline | 12 | 7 | M2, M3 |
-| 5 | Walk-forward evaluation | 4 | 2 | M4 |
-| 6 | Logistic regression | 14 | 9 | M4, M5 |
-| 7 | Kalshi client | 3 | 5 | M1 |
-| 8 | Event matching | 2 | 4 | M3, M7 |
-| 9 | Snapshot collection | 3 | 3 | M7, M8 |
-| 10 | Paper trading | 5 | 12 | M6, M9 |
-| 11 | Hermes layer | 6 | 8 | M10 |
-| 12 | Attribution reports | 4 | 3 | M11 |
+| # | Milestone | Est. Files | Est. Tests | Depends On | Status |
+|---|-----------|-----------|-----------|------------|--------|
+| 1 | Project skeleton | 6 | 3 | — | ✅ Built |
+| 2 | Historical data ingestion | 10 | 3 | M1 | ✅ Built differently |
+| 3 | Canonical teams & rosters | 5 | 3 | M2 | ✅ Partial |
+| 4 | Elo baseline | 12 | 7 | M2, M3 | ✅ Built |
+| 5 | Walk-forward evaluation | 4 | 2 | M4 | ✅ Built |
+| 6 | Logistic regression | 14 | 9 | M4, M5 | ⚠️ Superseded (RF+Platt) |
+| 7 | Kalshi client | 3 | 5 | M1 | ✅ Built |
+| 8 | Event matching | 2 | 4 | M3, M7 | ✅ Built differently |
+| 9 | Snapshot collection | 3 | 3 | M7, M8 | ⚠️ Superseded |
+| 10 | Paper trading | 5 | 12 | M6, M9 | ✅ Built (→ live) |
+| 11 | Hermes layer | 6 | 8 | M10 | ❌ Not built |
+| 12 | Attribution reports | 4 | 3 | M11 | ❌ Partial |
