@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "mode": "paper",
+  "method": "fixed",
+  "initial_bankroll": "500.00",
+  "fixed_stake": "5.00",
+  "kelly_fraction": "0.25",
+  "max_match_loss": "10.00",
+  "max_open_risk": "50.00",
+  "daily_loss_budget": "50.00",
+  "day_timezone": "America/Chicago",
+  "max_quote_age_seconds": 30,
+  "max_contracts": 1000
+}

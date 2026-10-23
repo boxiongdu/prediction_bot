@@ -1,0 +1,43 @@
+{
+  "rows": 2796,
+  "counts": {
+    "2223/E0": 380,
+    "2223/E1": 552,
+    "2324/E0": 380,
+    "2324/E1": 552,
+    "2425/E0": 380,
+    "2425/E1": 552
+  },
+  "cutoff": "kickoff minus two hours; historical availability conservatively approximated",
+  "limitations": [
+    "Retrospective CSVs are not point-in-time publication archives.",
+    "Paper replication pending accessible full method.",
+    "No odds benchmark or portfolio results in this phase."
+  ],
+  "source_files": [
+    {
+      "path": "data/raw/2223_E0.csv",
+      "sha256": "8442792d3b614c94ea3cf381bd2736805889cc1713169035368fff19c3d02380"
+    },
+    {
+      "path": "data/raw/2223_E1.csv",
+      "sha256": "cd38ab0586ea8cb4d573c363ff70749117f116da5b2741e5b0ea37da05860b1b"
+    },
+    {
+      "path": "data/raw/2324_E0.csv",
+      "sha256": "b2e057b0ed959f198b0f63d2391c01239f3608e6de5db68edab3f88e04d07ff3"
+    },
+    {
+      "path": "data/raw/2324_E1.csv",
+      "sha256": "5737f6cc95c95092b28317f41d3123e2fb09345434efc1c84bbdf15830849ab3"
+    },
+    {
+      "path": "data/raw/2425_E0.csv",
+      "sha256": "d0c8ce4a96d886cf60cf101f570f4a3893844226f91c7bd769eb568c49edbfa4"
+    },
+    {
+      "path": "data/raw/2425_E1.csv",
+      "sha256": "f34c340446c916374be66bdc2fb25b87ee7f2662712ca009653d03ac705535f9"
+    }
+  ]
+}
