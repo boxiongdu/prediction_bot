@@ -247,6 +247,16 @@ Deployment configuration and secrets are intentionally **not** included in this 
 | [docs/feature_leakage_rules.md](docs/feature_leakage_rules.md) | Leakage-safety rules enforced in feature engineering |
 | [docs/KALSHI_EXECUTION_ARCHITECTURE.md](docs/KALSHI_EXECUTION_ARCHITECTURE.md) | Detailed order-execution reference (includes other bots; LoL-specific parts noted) |
 
+
+## CI/CD and DigitalOcean staging
+
+GitHub Actions runs the offline test suite on pushes and pull requests. A
+separately approved manual workflow stages source releases on a DigitalOcean
+Linux Droplet with SSH and a versioned Python virtual environment. **It does
+not restart or enable the live trading system.** See
+[docs/ci_cd_digitalocean.md](docs/ci_cd_digitalocean.md) for setup, security,
+validation and the production promotion blocker.
+
 ## License
 
 MIT
