@@ -1,0 +1,54 @@
+name: Python CI
+
+on:
+  push:
+    branches:
+      - main
+      - 'feat/**'
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    name: Offline tests (Python 3.11)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ENABLE_LIVE_TRADING: "false"
+      AUTO_TRADING_ENABLED: "false"
+      LIVE_TRADING_MODE: PAPER
+      KALSHI_KEY_ID: ""
+      KALSHI_PRIVATE_KEY_PATH: ""
+      KALSHI_API_KEY: ""
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install project and test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Syntax validation
+        run: python -m compileall -q src tests scripts
+
+      - name: Deployment script syntax
+        run: bash -n scripts/deploy_staging.sh
+
+      - name: Run offline test suite
+        run: python -m pytest -q -m "not integration and not slow"
