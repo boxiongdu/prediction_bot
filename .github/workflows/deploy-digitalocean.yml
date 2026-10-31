@@ -1,0 +1,100 @@
+name: Deploy to DigitalOcean (staging)
+
+# An approved manual action only. Never restarts or enables live trading.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: digitalocean-staging
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    name: Verify source before staging
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ENABLE_LIVE_TRADING: "false"
+      AUTO_TRADING_ENABLED: "false"
+      LIVE_TRADING_MODE: PAPER
+      KALSHI_KEY_ID: ""
+      KALSHI_PRIVATE_KEY_PATH: ""
+      KALSHI_API_KEY: ""
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: python -m pip install -e ".[dev]"
+      - run: python -m compileall -q src tests scripts
+      - run: bash -n scripts/deploy_staging.sh
+      - run: python -m pytest -q -m "not integration and not slow"
+
+  deploy:
+    name: Upload verified release to Droplet
+    needs: verify
+    # Configure required reviewers on this environment in GitHub Settings.
+    environment: digitalocean-staging
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout verified revision
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Check deployment secrets
+        env:
+          SSH_HOST: ${{ secrets.DO_SSH_HOST }}
+          SSH_USER: ${{ secrets.DO_SSH_USER }}
+          SSH_KEY: ${{ secrets.DO_SSH_PRIVATE_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.DO_SSH_KNOWN_HOSTS }}
+        run: |
+          test -n "$SSH_HOST"
+          test -n "$SSH_USER"
+          test -n "$SSH_KEY"
+          test -n "$SSH_KNOWN_HOSTS"
+          if [[ ! "$SSH_HOST" =~ ^[a-zA-Z0-9.-]+$ || ! "$SSH_USER" =~ ^[a-z_][a-zA-Z0-9_-]*$ ]]; then
+            echo "Invalid SSH host or username" >&2
+            exit 1
+          fi
+
+      - name: Package source only (no trading databases or historical datasets)
+        run: |
+          git archive --format=tar.gz --output=release.tar.gz HEAD \
+            src scripts tests pyproject.toml README.md .env.example
+          test -s release.tar.gz
+
+      - name: Configure pinned SSH host authentication
+        env:
+          SSH_KEY: ${{ secrets.DO_SSH_PRIVATE_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.DO_SSH_KNOWN_HOSTS }}
+        run: |
+          umask 077
+          mkdir -p "$HOME/.ssh"
+          printf '%s\n' "$SSH_KEY" > "$HOME/.ssh/id_ed25519"
+          printf '%s\n' "$SSH_KNOWN_HOSTS" > "$HOME/.ssh/known_hosts"
+          chmod 600 "$HOME/.ssh/id_ed25519" "$HOME/.ssh/known_hosts"
+
+      - name: Upload and install a versioned staging release
+        env:
+          SSH_HOST: ${{ secrets.DO_SSH_HOST }}
+          SSH_USER: ${{ secrets.DO_SSH_USER }}
+          RELEASE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          host="$SSH_USER@$SSH_HOST"
+          ssh -o BatchMode=yes -o StrictHostKeyChecking=yes "$host" \
+            'mkdir -p "$HOME/prediction_bot_staging/incoming"'
+          scp -q -o BatchMode=yes -o StrictHostKeyChecking=yes release.tar.gz \
+            "$host:prediction_bot_staging/incoming/$RELEASE_SHA.tar.gz"
+          ssh -o BatchMode=yes -o StrictHostKeyChecking=yes "$host" \
+            "bash -s -- '$RELEASE_SHA'" < scripts/deploy_staging.sh
+          echo "Staged commit $RELEASE_SHA (no live service restart)."
